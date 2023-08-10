@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/secure.png" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <title>ExpressVPN Landing Page</title>
+  <style>
+    body>footer:last-of-type {
+      background: hsl(243, 87%, 12%);
+      padding: 30px 0 5px;
+    }
+
+    .attribution {
+      font-size: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .attribution a {
+      color: hsl(178, 84%, 66%);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>ExpressVPN</h1>
+      <div class="parts">
+        <button>Features</button>
+        <button>Pricing</button>
+        <button>Sign In</button>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Main part 1 -->
+    <section class="main-1">
+      <div class="container">
+        <div class="row">
+          <img src="images/illustration-1.svg" alt="" />
+          <div class="info">
+            <h1>The VPN that just works</h1>
+            <p>Go further with the #1 trusted leader in VPN.</p>
+            <form action="GET">
+              <input type="email" name="email" placeholder="Enter your email..." required />
+              <input type="submit" value="Get ExpressVPN" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main part 2 -->
+    <section class="main-2">
+      <div class="container">
+        <div class="row">
+          <img src="images/illustration-2.svg" alt="" />
+          <div class="info">
+            <h2>Secure access, worldwide</h2>
+            <p>Connect reliably from anywhere, to anywhere.</p>
+            <p>Our network of high-speed servers across 94 counntries puts you in control.</p>
+            <button>Get ExpressVPN</button>
+            <div class="quote">
+              <i class="fa fa-quote-left fa-1x"></i>
+              <p>ExpressVPN built Lightway to outdo them all in speed, reliability, 
+                and security. Give it a try to see for yourself.
+                ExpressVPN automatically chooses the best protocol for your network, 
+                but you can also choose one manually.</p>
+              <div class="founder">
+                <div class="details">
+                  <strong>Deepak Keshri</strong>
+                  <strong>Founder & CEO</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Pricing -->
+    <div class="main" >
+      <!--Toggle-->
+      <div class="pricing">
+          <h1>Our Pricing</h1>
+          <div class="plans">
+            <label>Annually</label>
+          <label class="switch">
+            <input onclick="toggle()" type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <label>Monthly</label>
+        </div>
+      </div>
+
+  <div class="cards">
+      <div class="card">
+      <ul>
+          <li class="pack">Basic</li>
+          <li class="pricing">₹269/-</li>
+          <hr>
+          <li class="bottom-bar">500 GB Storage</li>
+          <li class="bottom-bar">2 Users Allowed</li>
+          <li class="bottom-bar">Send up to 5 GB</li>
+          <li><button class="btn">Get Plan</button></li>
+      </ul>
+      </div>
+
+      <div class="card">
+          <ul>
+              <li class="pack">Master</li>
+              <li class="pricing">₹499/-</li>
+              <hr>
+              <li class="bottom-bar">1 TB Storage</li>
+              <li class="bottom-bar">5 Users Allowed</li>
+              <li class="bottom-bar">Send up to 20 GB</li>
+              <li><button class="btn">Get Plan</button></li>
+          </ul>
+      </div>
+  </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <h1>ExpressVPN</h1><br><br>
+        <div class="footer-content">
+          <div class="col">
+            <div>
+              <img src="images/icon-phone.svg" alt="" />
+              <p>Phone:+91 9322129567</p>
+            </div>
+            <div>
+              <img src="images/icon-email.svg" alt="" />
+              <p>info_ExpressVPN@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms&Condition</a><br><br>
+            <p class="attribution">
+              © 2023 ExpressVPN. All rights reserved.| <a href="#">Deepak Keshri </a>.
+            </p>
+          </div>
+            
+          <div class="col">
+            <a href="#"><i class="fa-facebook-f" aria-hidden="true"></i>Facebook</a>
+            <a href="#"><i class="fa-twitter" aria-hidden="true"></i>Twitter</a>
+            <a href="#"><i class="fa-instagram" aria-hidden="true"></i>Instagram</a>
+            <a href="#"><i class="fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
