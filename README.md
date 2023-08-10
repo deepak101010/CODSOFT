@@ -19,7 +19,9 @@ Task 2 Images:
 <img width="960" alt="image" src="https://github.com/deepak101010/CODSOFT/assets/74196393/71a21986-cf28-4322-9071-5a4603914112">
 <img width="960" alt="image" src="https://github.com/deepak101010/CODSOFT/assets/74196393/24f9251a-074a-49ec-b5db-31c4f6e4cd39">
 <img width="960" alt="image" src="https://github.com/deepak101010/CODSOFT/assets/74196393/43db914d-5f40-498e-8dd0-ebdbaedbb195">
-<img width="960" alt="image" src="https://github.com/deepak101010/CODSOFT/assets/74196393/0389370c-c5c6-4744-94c4-7ca417767655">
+<img width="960" alt="image" src="https://github.com/deepak101010/CODSOFT/assets/74196393/41e4f5c0-921d-4250-917d-9d50cabfcbe6">
+
+
 
 
 
